@@ -1,0 +1,240 @@
+
+
+
+/* ****** ************************
+GENERAL 
+******************************** */
+/*font for body*/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;/*fjern understrek*/ 
+}
+
+img{
+  height: auto;
+
+  max-width: 100%;
+}
+
+h3 {
+  margin:0 0 1em 0;/*alltid separert fra de andre elementene*/
+  
+}
+
+/* ****** ************************
+HEADER 
+******************************** */
+
+header{
+    float:left;
+    
+    padding:5px 0 0 0;
+    width:100%;
+}
+
+#logo{
+  text-align: center;/*setter den i center*/
+  margin: 0;
+
+}
+/*font for bare h1*/
+h1{
+  font-family: 'Raleway', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2{
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+
+}
+
+
+
+/* ****** ************************
+NAVIGATION 
+******************************** */
+
+nav{
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  
+  
+}
+
+nav ul {
+  list-style: none;
+  margin:0 10px;
+  padding: 0;
+  
+  
+}
+
+nav li {
+  display:inline-block;
+  padding: 15px;
+  
+  
+}
+
+nav a {
+  font-weight: 800; /*tykk font*/
+  padding: 15px 10px;/* lettere å klikke riktig*/
+}
+
+
+/* ****** ************************
+FOOTER
+******************************** */
+
+footer{
+  font-size: 0.75em;
+  text-align: center;
+  clear:both;
+  padding-top:50px;
+  color:#ccc;
+  
+}
+/*2 av samme class*/
+.profile {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+/* ****** ************************
+PAGE: PORTOFOLIO 
+******************************** */
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+
+/* ****** ************************
+PAGE: ABOUT
+******************************** */
+
+.profile-photo {
+  display:block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius:100%;
+}
+
+
+/* ****** ************************
+PAGE: CONTACT
+******************************** */
+
+.contact-info{
+ list-style: none;
+ margin:0;
+ padding: 0;
+ font-size:0.9em;
+}
+
+.contact-info a {
+  display:block;
+  min-height:20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a{
+  background-image: url('../img/mail.png');
+}
+
+
+/* ****** ************************
+COLORS
+******************************** */
+
+body { /* site body */
+  background-color: #fff;
+  color: #999;
+}
+
+/* farge på header*/
+header {
+      background:#EAEAEA; /*farge på bakgrunnen*/
+      border-color:#599a68; /*farge på linktesksten*/
+}
+
+/* nav bakgrunn på mobil*/
+nav { /*mørkere farge på bakgrunnen*/
+      background:#231F20;
+      
+}
+
+/* logo tekst*/
+h1, h2 {
+  color:#231F20; 
+}
+
+/*farge på linktesksten i a*/
+a {
+  color:#AD974F; 
+}
+
+/* nav link*/
+nav a, nav a:visited { /*lager en sudo selector*/
+      color:#EAEAEA; 
+   
+}
+
+/*alle a i nav, som har click class*/
+nav a.click, nav a:hover {
+
+    color:#AD974F;/*bakgrunn*/
+}
+
+
+
+
+ 
+
+
+
+
