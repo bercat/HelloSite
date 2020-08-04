@@ -1,4 +1,4 @@
-# bercat.github.io
+# small site 
 
 
-https://bercat.github.io/.
+https://bercat.github.io/HelloSite/.
